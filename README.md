@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ## Business Dashboard
 Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
 [Dashboard JayaMaju](https://yudisdwi.streamlit.app/)
-Human Resource Dashboard yang digunakan untuk melakukan prediksi kemungkinan karyawan resign (attrition prediction). Berikut penjelasannya:
+Student Analisys Dashboard yang digunakan untuk melakukan prediksi kemungkinan karyawan resign (attrition prediction). Berikut penjelasannya:
 Struktur Dashboard
 ```
 Sidebar (kiri):
