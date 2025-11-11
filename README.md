@@ -74,16 +74,14 @@ streamlit run app.py
 http://localhost:(port)/
 ```
 
-## Conclusion
-Mengidentifikasi area yang memerlukan perhatian (misal dropout tinggi).
-Memahami komposisi demografis mahasiswa.
 
-Mengoptimalkan strategi pendidikan berdasarkan data nyata.
+## Conclusion
+
+• Mengidentifikasi area yang memerlukan perhatian (misal dropout tinggi).
+• Memahami komposisi demografis mahasiswa.
+• Mengoptimalkan strategi pendidikan berdasarkan data nyata.
+
 ### Rekomendasi Action Items
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
-- Analisis Lanjutan Dropout Rate:
-• Lakukan drill-down analysis untuk mengetahui faktor penyebab utama mahasiswa keluar, seperti IPK rendah, faktor ekonomi, atau keterlibatan akademik.
-• Rancang program intervensi dini bagi mahasiswa berisiko tinggi.
 
 - Optimalisasi Strategi Retensi Mahasiswa:
 • Implementasikan program pembinaan akademik dan mentoring berdasarkan pola performa mahasiswa.
