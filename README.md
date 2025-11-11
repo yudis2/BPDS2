@@ -59,7 +59,6 @@ Total Students: 4424 mahasiswa
 ```
 ## Menjalankan Sistem Machine Learning
 Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
-```
 1. Clone Repository
 ```
 git clone https://github.com/yudis2/BPDS2.git
@@ -74,16 +73,18 @@ streamlit run app.py
 http://localhost:(port)/
 ```
 
-
 ## Conclusion
 
 • Mengidentifikasi area yang memerlukan perhatian (misal dropout tinggi).
+
 • Memahami komposisi demografis mahasiswa.
+
 • Mengoptimalkan strategi pendidikan berdasarkan data nyata.
 
 ### Rekomendasi Action Items
 
-- Optimalisasi Strategi Retensi Mahasiswa:
 • Implementasikan program pembinaan akademik dan mentoring berdasarkan pola performa mahasiswa.
+
 • Evaluasi kurikulum atau metode pengajaran pada program dengan tingkat kelulusan rendah.
+
 • Gunakan dashboard ini sebagai alat monitoring berkelanjutan bagi dekan dan kepala program studi.
