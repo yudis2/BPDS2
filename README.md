@@ -23,46 +23,50 @@ Untuk mengatasi permasalahan tersebut, dilakukan analisis data akademik dan demo
 Sumber data: 
 🔗 Link dataset: [Dicoding Student Performance Dataset](https://github.com/dicodingacademy/dicoding_dataset/tree/main/students_performance)
 Setup environment:
-```
 1. Buka terminal atau PowerShell.
-```
-```
 2. Membuat virtual Environment
+```
 conda create --name jayamaju-segmentation python=3.9
 ```
-```
 3. Aktifkan virtual Environment
+```
 conda activate jayamaju-segmentation
 ```
-```
 4. Install semua library yang dibutuhkan
+```
 pip install -r requirements.txt
 ````
 
 ## Business Dashboard
-Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
 [Dashboard JayaMaju](https://yudisdwi.streamlit.app/)
-Student Analisys Dashboard yang digunakan untuk melakukan prediksi kemungkinan karyawan resign (attrition prediction). Berikut penjelasannya:
+Student Analisys Dashboard yang digunakan untuk melakukan prediksi kemungkinan siswa dropout. 
+Berikut penjelasannya:
+
 Struktur Dashboard
-```
+
 Sidebar (kiri):
+
 • Gender: Male / Female
+
 • Status Mahasiswa: Dropout, Graduate, Enrolled
+
 • Course/Program Studi: Animation, Tourism, Communication, Journalism, dsb.
-```
-```
+
+
 Data Overview
-Menampilkan metrik utama secara ringkas:
+
 Average Admission Grade: 126.98
+
 Average Age: 23.3 tahun
+
 Total Students: 4424 mahasiswa
-```
+
 ## Menjalankan Sistem Machine Learning
 Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
 1. Clone Repository
 ```
 git clone https://github.com/yudis2/BPDS2.git
-cd BPDS
+cd BPDS2
 ```
 2. Run Dashboard Jaya Maju (Streamlit)
 ```
