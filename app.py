@@ -111,7 +111,7 @@ with tab4:
 
     @st.cache_resource
     def load_model():
-        model = pickle.load(open(Path(__file__).parent / "model.joblib", "rb"))
+        model = pickle.load(open(Path(__file__).parent / "modelRF.joblib")
         return model
 
     df = load_data()
