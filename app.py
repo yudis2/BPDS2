@@ -1,8 +1,9 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from streamlit_plotly_events import plotly_events
 import joblib
+from pathlib import Path
+import pickle
 
 st.set_page_config(page_title="🎓 Student Performance Dashboard", layout="wide")
 
@@ -110,7 +111,7 @@ with tab4:
 
     @st.cache_resource
     def load_model():
-        model = joblib.load("model.joblib")   # Ganti nama model Anda
+        model = pickle.load(open(Path(__file__).parent / "model.joblib", "rb"))
         return model
 
     df = load_data()
