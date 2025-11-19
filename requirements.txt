@@ -1,11 +1,11 @@
 streamlit
-numpy
+numpy==1.24.3
 pandas
 scipy
 matplotlib
 seaborn
 joblib
-scikit-learn
+scikit-learn==1.2.2
 sqlalchemy
 plotly
 streamlit-plotly-events
