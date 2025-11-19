@@ -12,7 +12,8 @@ Untuk mengatasi permasalahan tersebut, dilakukan analisis data akademik dan demo
 2. Minimnya pemahaman mengenai **faktor utama yang memengaruhi dropout**.
 3. Belum adanya sistem visualisasi dan model prediktif untuk membantu pengambilan keputusan akademik secara proaktif.
 
-### Cakupan Proyek* Analisis eksploratif (EDA) dan pembersihan data
+### Cakupan Proyek
+* Analisis eksploratif (EDA) dan pembersihan data
 * Transformasi dan encoding data kategorikal serta numerik
 * Penanganan outliers dan ketidakseimbangan data
 * Implementasi model machine learning (Random Forest)
@@ -87,8 +88,8 @@ http://localhost:(port)/
 
 ### Rekomendasi Action Items
 
-• Implementasikan program pembinaan akademik dan mentoring berdasarkan pola performa mahasiswa.
+• Mahasiswa yang sudah menikah memiliki risiko DO lebih tinggi karena tuntutan keluarga, sehingga perlu diberikan fleksibilitas jadwal kuliah, akses pembelajaran daring, serta dukungan konseling agar tetap dapat mengikuti perkuliahan secara konsisten.
 
-• Evaluasi kurikulum atau metode pengajaran pada program dengan tingkat kelulusan rendah.
+• Mahasiswa dengan IPK rendah atau performa akademik melemah pada semester awal berpotensi besar mengalami DO, sehingga universitas perlu menyediakan kelas remedial, mentoring rutin, dan pendampingan belajar yang terstruktur.
 
-• Gunakan dashboard ini sebagai alat monitoring berkelanjutan bagi dekan dan kepala program studi.
+• Ketidakhadiran yang meningkat secara konsisten menjadi indikator kuat risiko DO, sehingga sistem perlu memberikan notifikasi otomatis dan intervensi cepat berupa konseling untuk mengetahui penyebab dan solusi kehadiran.

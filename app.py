@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
+from streamlit_plotly_events import plotly_events
+import joblib
 
 st.set_page_config(page_title="🎓 Student Performance Dashboard", layout="wide")
 
@@ -26,10 +27,10 @@ filtered_df = df[
 ]
 
 st.title("🎓 Student Performance Analytics Dashboard")
-st.markdown("Visualisasi interaktif untuk memahami performa akademik mahasiswa berdasarkan berbagai faktor demografis dan akademik.")
+st.markdown("Interactive visualization to understand student academic performance based on various demographic and academic factors.")
 
 
-tab1, tab2, tab3 = st.tabs(["📋 Overview", "📈 Academic Performance", "🔍 Insights"])
+tab1, tab2, tab3, tab4 = st.tabs(["📋 Overview", "📈 Academic Performance", "🔍 Insights", "🕵🏻 Analyze"])
 
 
 with tab1:
@@ -47,6 +48,7 @@ with tab1:
     col1, col2 = st.columns(2)
     col1.plotly_chart(fig_gender, use_container_width=True)
     col2.plotly_chart(fig_status, use_container_width=True)
+    
     #inrelevant pie chart but its oke
     # fig_nasional = px.pie(df["Nacionality"].value_counts().nlargest(3).index, names="Nacionality", title="Nationality", color_discrete_sequence=px.colors.qualitative.Safe)
     # fig_age = px.pie(df["Age_at_enrollment"].value_counts().nlargest(3).index, names="Age_at_enrollment", title="Age", color_discrete_sequence=px.colors.qualitative.Safe)
@@ -94,6 +96,94 @@ with tab3:
         st.plotly_chart(fig_corr, use_container_width=True)
     else:
         st.warning("Not enough numerical data for correlation analysis.")
+
+with tab4:
+    st.write("### 🎓 Student Dropout Prediction System")
+
+    # --------------------------
+    # Load Data
+    # --------------------------
+    @st.cache_data
+    def load_data():
+        df = pd.read_csv("clean_data.csv")   # Ganti sesuai path Anda
+        return df
+
+    @st.cache_resource
+    def load_model():
+        model = joblib.load("/Users/yudisdwi/Documents/BPDS2/model/modelRF.joblib")   # Ganti nama model Anda
+        return model
+
+    df = load_data()
+    model = load_model()
+
+    # --------------------------
+    # Optional Mapping (contoh)
+    # --------------------------
+    education_mapping = {
+        1: "SMP",
+        2: "SMA",
+        3: "Diploma",
+        4: "Sarjana",
+        5: "Magister"
+    }
+
+    # --------------------------
+    # Input Features
+    # --------------------------
+    st.subheader("Input Student Features")
+
+    input_data = {}
+
+    for col in df.columns:
+
+        # Lewati kolom target
+        if col in ["Dropout", "dropout", "Status", "label"]:
+            continue
+
+        # Contoh jika Anda punya kolom tingkat pendidikan
+        if col == "EducationLevel":
+            selected_value = st.selectbox(
+                f"Select {col}",
+                options=list(education_mapping.keys()),
+                format_func=lambda x: education_mapping[x]
+            )
+            input_data[col] = selected_value
+            continue
+
+        # Jika kolom kategori (object)
+        if df[col].dtype == 'object':
+            input_data[col] = st.selectbox(
+                f"Select {col}",
+                df[col].unique()
+            )
+        else:
+            # Kolom numerik
+            input_data[col] = st.number_input(
+                f"Input {col}",
+                value=float(df[col].mean())
+            )
+
+    # --------------------------
+    # Predict
+    # --------------------------
+    if st.button("Predict Dropout"):
+        input_df = pd.DataFrame([input_data])
+
+        prediction = model.predict(input_df)
+        prediction_proba = model.predict_proba(input_df)
+
+        st.subheader("📘 Result Prediction")
+
+        dropout_result = (
+            "⚠️ Student predicted Drop Out"
+            if prediction[0] == 1
+            else "✅ Student predict keep studying"
+        )
+
+        st.write(f"**Status Prediksi:** {dropout_result}")
+        st.write(f"**Probabilitas Drop Out:** {prediction_proba[0][1]:.2f}")
+    
+    
 
 st.markdown("---")
 st.caption("📘 Data source: Student Dataset | Created By Yudisdwi")
