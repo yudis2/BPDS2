@@ -8,7 +8,7 @@ st.set_page_config(page_title="🎓 Student Performance Dashboard", layout="wide
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("/mount/src/bpds2/clean_data.csv")
+    df = pd.read_csv("clean_data.csv")
     return df
 
 df = load_data()
@@ -110,7 +110,7 @@ with tab4:
 
     @st.cache_resource
     def load_model():
-        model = joblib.load("/mount/src/bpds2/model/modelRF.joblib")   # Ganti nama model Anda
+        model = joblib.load("model/modelRF.joblib")   # Ganti nama model Anda
         return model
 
     df = load_data()
