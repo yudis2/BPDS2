@@ -110,7 +110,7 @@ with tab4:
 
     @st.cache_resource
     def load_model():
-        model = joblib.load("model/modelRF.joblib")   # Ganti nama model Anda
+        model = joblib.load("model.joblib")   # Ganti nama model Anda
         return model
 
     df = load_data()
