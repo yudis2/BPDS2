@@ -111,7 +111,7 @@ with tab4:
 
     @st.cache_resource
     def load_model():
-        model = joblib.load(open(Path(__file__).parent / "modelRF.joblib", "rb")) 
+        model = joblib.load(Path(__file__).parent / "modelRF.joblib")
         return model
 
     df = load_data()
