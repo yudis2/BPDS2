@@ -30,7 +30,7 @@ st.title("🎓 Student Performance Analytics Dashboard")
 st.markdown("Interactive visualization to understand student academic performance based on various demographic and academic factors.")
 
 
-tab1, tab2, tab3, tab4 = st.tabs(["📋 Overview", "📈 Academic Performance", "🔍 Insights", "🕵🏻 Analyze"])
+tab1, tab2, tab3 = st.tabs(["📋 Overview", "📈 Academic Performance", "🕵🏻 Analyze"])
 
 
 with tab1:
@@ -49,12 +49,12 @@ with tab1:
     col1.plotly_chart(fig_gender, use_container_width=True)
     col2.plotly_chart(fig_status, use_container_width=True)
     
-    #inrelevant pie chart but its oke
-    # fig_nasional = px.pie(df["Nacionality"].value_counts().nlargest(3).index, names="Nacionality", title="Nationality", color_discrete_sequence=px.colors.qualitative.Safe)
-    # fig_age = px.pie(df["Age_at_enrollment"].value_counts().nlargest(3).index, names="Age_at_enrollment", title="Age", color_discrete_sequence=px.colors.qualitative.Safe)
-    # col1, col2 = st.columns(2)
-    # col1.plotly_chart(fig_nasional, use_container_width=True)
-    # col2.plotly_chart(fig_age, use_container_width=True)
+    
+    fig_marital = px.pie(filtered_df, names="Marital_status", title="Marital Distribution", color_discrete_sequence=px.colors.qualitative.Pastel)
+    fig_age = px.pie(filtered_df, names="Age_at_enrollment", title="Student Age Distribution", color_discrete_sequence=px.colors.qualitative.Safe)
+    col1, col2 = st.columns(2)
+    col1.plotly_chart(fig_marital, use_container_width=True)
+    col2.plotly_chart(fig_age, use_container_width=True)
 
 
 with tab2:
@@ -84,20 +84,6 @@ with tab2:
     st.plotly_chart(fig_sem, use_container_width=True)
 
 with tab3:
-    st.subheader("📉 Correlation Between Numerical Variables")
-
-    numeric_df = filtered_df.select_dtypes(include=['float64', 'int64'])
-    if numeric_df.shape[1] > 1:
-        corr = numeric_df.corr()
-        fig_corr = px.imshow(
-            corr, text_auto=True, aspect="auto",
-            title="Correlation Heatmap", color_continuous_scale="RdBu_r"
-        )
-        st.plotly_chart(fig_corr, use_container_width=True)
-    else:
-        st.warning("Not enough numerical data for correlation analysis.")
-
-with tab4:
     st.write("### 🎓 Student Dropout Prediction System")
 
     # --------------------------
@@ -110,37 +96,19 @@ with tab4:
 
     @st.cache_resource
     def load_model():
-        model = joblib.load(Path(__file__).parent / "modelRF.joblib") 
+        model = joblib.load("modelRF.joblib") 
         return model
 
     df = load_data()
     model = load_model()
 
-    # --------------------------
-    # Optional Mapping (contoh)
-    # --------------------------
-    education_mapping = {
-        1: "SMP",
-        2: "SMA",
-        3: "Diploma",
-        4: "Sarjana",
-        5: "Magister"
-    }
-
-    # --------------------------
-    # Input Features
-    # --------------------------
-    st.subheader("Input Student Features")
-
     input_data = {}
 
     for col in df.columns:
 
-        # Lewati kolom target
         if col in ["Dropout", "dropout", "Status", "label"]:
             continue
 
-        # Contoh jika Anda punya kolom tingkat pendidikan
         if col == "EducationLevel":
             selected_value = st.selectbox(
                 f"Select {col}",
@@ -150,7 +118,6 @@ with tab4:
             input_data[col] = selected_value
             continue
 
-        # Jika kolom kategori (object)
         if df[col].dtype == 'object':
             input_data[col] = st.selectbox(
                 f"Select {col}",
@@ -163,9 +130,6 @@ with tab4:
                 value=float(df[col].mean())
             )
 
-    # --------------------------
-    # Predict
-    # --------------------------
     if st.button("Predict Dropout"):
         input_df = pd.DataFrame([input_data])
 
@@ -184,6 +148,5 @@ with tab4:
         st.write(f"**Probabilitas Drop Out:** {prediction_proba[0][1]:.2f}")
     
     
-
 st.markdown("---")
 st.caption("📘 Data source: Student Dataset | Created By Yudisdwi")

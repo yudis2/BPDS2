@@ -165,7 +165,7 @@ Single,Nursing,Portuguese,125.8,Female,18,0,7,8,7,14.91875,0,0,8,8,8,15.355,0,Gr
 Single,Basic Education,Portuguese,123.3,Female,21,0,6,13,4,11.5,0,0,6,10,3,11.0,0,Dropout
 Single,Advertising and Marketing Management,Portuguese,124.4,Female,19,0,5,5,5,14.2,0,0,5,5,5,14.2,0,Graduate
 Single,Journalism and Communication,Portuguese,126.0,Female,19,0,6,6,6,12.5,0,0,6,7,6,13.0,0,Graduate
-,Agronomy,Portuguese,170.0,Female,47,0,1,1,0,0.0,0,0,6,0,0,0.0,0,Enrolled
+Divorced,Agronomy,Portuguese,170.0,Female,47,0,1,1,0,0.0,0,0,6,0,0,0.0,0,Enrolled
 Single,Social Service,Portuguese,121.5,Female,19,0,6,10,5,11.666666666666666,0,0,6,12,4,11.0,0,Graduate
 Single,Nursing,Portuguese,130.0,Female,29,1,8,8,7,14.257142857142856,0,1,8,8,7,14.257142857142856,0,Graduate
 Single,Social Service,Portuguese,117.0,Female,21,0,6,13,3,12.0,0,0,6,12,2,11.333333333333334,0,Dropout
@@ -427,7 +427,7 @@ Single,Oral Hygiene,Portuguese,112.2,Female,20,0,7,7,7,13.785714285714286,0,0,8,
 Single,Nursing,Portuguese,150.5,Female,20,0,7,7,6,13.916666666666666,0,0,7,7,6,13.916666666666666,0,Graduate
 Single,Advertising and Marketing Management,Portuguese,121.0,Female,19,0,6,8,6,13.5,0,0,6,9,6,13.571428571428571,0,Graduate
 Single,Management,Portuguese,112.2,Female,20,0,5,8,3,11.333333333333334,0,0,5,12,2,10.666666666666666,0,Enrolled
-,Veterinary Nursing,Portuguese,129.4,Female,21,0,5,8,0,0.0,4,0,5,12,0,0.0,4,Dropout
+Divorced,Veterinary Nursing,Portuguese,129.4,Female,21,0,5,8,0,0.0,4,0,5,12,0,0.0,4,Dropout
 Single,Advertising and Marketing Management,Portuguese,114.4,Female,19,0,6,10,5,11.5,0,0,6,9,4,14.6,0,Graduate
 Single,Nursing,Portuguese,120.3,Female,18,0,8,8,7,12.082857142857142,0,0,8,8,7,12.082857142857142,0,Graduate
 Single,Social Service (evening attendance),Portuguese,120.0,Female,27,0,6,8,6,11.833333333333334,0,0,6,10,5,12.8,0,Graduate
@@ -687,7 +687,7 @@ Divorced,Agronomy,Portuguese,110.0,Male,49,6,12,17,7,12.0,0,3,12,19,9,11.2222222
 Married,Management (evening attendance),Portuguese,128.2,Male,46,6,10,13,9,12.2,0,4,10,12,10,12.8,0,Graduate
 Single,Veterinary Nursing,Portuguese,137.7,Male,41,3,3,3,3,12.333333333333334,0,2,2,2,2,11.0,0,Dropout
 Single,Nursing,Portuguese,128.8,Male,18,0,7,8,7,11.8375,0,0,8,9,8,12.48125,0,Graduate
-,Management (evening attendance),Portuguese,170.0,Male,43,0,5,5,5,11.8,0,0,5,6,5,14.0,0,Graduate
+Divorced,Management (evening attendance),Portuguese,170.0,Male,43,0,5,5,5,11.8,0,0,5,6,5,14.0,0,Graduate
 Divorced,Management,Portuguese,116.4,Male,70,0,5,5,0,0.0,0,0,5,9,0,0.0,0,Dropout
 Divorced,Equinculture,Portuguese,100.9,Male,48,0,6,0,0,0.0,0,0,6,0,0,0.0,0,Dropout
 Married,Agronomy,Portuguese,136.0,Male,41,18,19,19,19,12.68421052631579,0,12,13,13,13,12.384615384615383,0,Graduate
@@ -704,7 +704,7 @@ Married,Management,Portuguese,128.0,Male,49,0,5,9,3,14.0,0,0,5,8,3,13.6666666666
 Single,Oral Hygiene,Portuguese,190.0,Male,43,4,4,4,4,13.875,0,1,1,1,1,12.5,0,Dropout
 Married,Management (evening attendance),Portuguese,133.2,Male,32,0,5,5,0,0.0,0,0,5,5,0,0.0,0,Dropout
 Single,Social Service,Portuguese,124.3,Male,47,3,9,9,9,13.11111111111111,0,3,7,7,7,14.857142857142858,0,Graduate
-,Management (evening attendance),Portuguese,138.1,Male,37,0,5,8,5,13.0,0,0,5,11,4,13.333333333333334,2,Dropout
+Divorced,Management (evening attendance),Portuguese,138.1,Male,37,0,5,8,5,13.0,0,0,5,11,4,13.333333333333334,2,Dropout
 Married,Social Service (evening attendance),Portuguese,144.3,Male,41,6,10,10,10,12.5,0,3,7,7,7,12.142857142857142,0,Graduate
 Married,Agronomy,Portuguese,140.0,Male,60,17,18,18,18,14.11111111111111,0,11,13,13,13,14.23076923076923,0,Graduate
 Married,Tourism,Portuguese,148.3,Male,47,6,11,11,11,14.727272727272728,0,6,9,9,9,15.77777777777778,0,Graduate
@@ -918,7 +918,7 @@ Single,Journalism and Communication,Santomean,120.0,Female,22,0,6,6,6,13.0,0,0,6
 Married,Management (evening attendance),Portuguese,111.7,Female,28,0,5,10,0,0.0,0,0,5,5,0,0.0,0,Dropout
 Married,Social Service (evening attendance),Portuguese,100.0,Female,37,0,6,0,0,0.0,0,0,6,0,0,0.0,0,Dropout
 Married,Agronomy,Portuguese,160.0,Female,43,0,6,8,6,14.166666666666666,0,0,6,9,6,15.0,0,Graduate
-,Social Service (evening attendance),Portuguese,114.8,Female,41,0,6,10,5,12.833333333333334,0,0,6,6,6,12.333333333333334,0,Graduate
+Divorced,Social Service (evening attendance),Portuguese,114.8,Female,41,0,6,10,5,12.833333333333334,0,0,6,6,6,12.333333333333334,0,Graduate
 Divorced,Social Service (evening attendance),Portuguese,131.0,Female,29,0,6,11,4,11.75,0,0,6,9,5,10.4,0,Graduate
 Single,Social Service (evening attendance),Portuguese,97.0,Female,35,0,6,8,6,10.833333333333334,0,0,6,7,6,11.5,0,Graduate
 Single,Social Service,Portuguese,131.7,Female,18,0,6,8,4,11.75,0,0,6,8,4,12.25,0,Dropout
@@ -1128,7 +1128,7 @@ Single,Advertising and Marketing Management,Portuguese,126.9,Female,21,0,5,5,5,1
 Single,Nursing,Portuguese,184.0,Female,28,0,7,9,7,17.005555555555556,0,1,8,9,8,16.582222222222224,0,Graduate
 Single,Social Service,Portuguese,125.0,Female,19,0,6,8,5,10.6,0,0,6,8,5,11.0,0,Graduate
 Single,Management,Portuguese,138.5,Female,18,0,5,5,5,14.0,0,0,5,6,5,13.6,0,Graduate
-,Nursing,Portuguese,133.5,Female,18,0,8,8,7,12.114285714285714,0,0,8,8,7,12.114285714285714,0,Graduate
+Divorced,Nursing,Portuguese,133.5,Female,18,0,8,8,7,12.114285714285714,0,0,8,8,7,12.114285714285714,0,Graduate
 Single,Nursing,Portuguese,141.5,Female,18,0,8,8,8,13.05875,0,0,8,8,8,13.05875,0,Graduate
 Single,Nursing,Portuguese,130.0,Female,22,4,8,8,7,13.285714285714286,0,4,8,8,7,13.285714285714286,0,Graduate
 Single,Management,Portuguese,131.0,Female,19,0,5,9,4,11.0,0,0,5,8,3,10.666666666666666,0,Enrolled
@@ -1179,7 +1179,7 @@ Single,Social Service,Portuguese,126.9,Female,18,0,6,8,6,13.571428571428571,0,0,
 Single,Communication Design,Mexican,168.5,Male,21,0,6,7,5,14.6,0,0,6,6,5,14.2,0,Graduate
 Divorced,Nursing,Portuguese,130.0,Female,38,0,7,13,3,11.833333333333334,0,0,7,14,2,10.0,0,Dropout
 Single,Oral Hygiene,Portuguese,122.8,Female,19,0,7,11,7,12.625,0,0,8,11,8,12.5125,0,Graduate
-,Nursing,Portuguese,110.0,Female,36,0,7,12,4,11.5,0,0,7,14,3,12.333333333333334,0,Dropout
+Divorced,Nursing,Portuguese,110.0,Female,36,0,7,12,4,11.5,0,0,7,14,3,12.333333333333334,0,Dropout
 Single,Veterinary Nursing,Portuguese,127.1,Female,18,0,5,8,4,13.25,1,0,5,10,4,10.5,0,Graduate
 Single,Nursing,Portuguese,108.5,Female,19,0,7,9,7,12.60625,0,0,8,12,6,11.9,0,Graduate
 Single,Veterinary Nursing,Portuguese,138.2,Female,21,7,10,15,8,13.75,0,4,9,17,5,13.2,0,Dropout
@@ -1427,7 +1427,7 @@ Single,Equinculture,Portuguese,129.5,Female,18,0,5,10,4,13.5,1,0,5,5,5,13.4,0,En
 Single,Animation and Multimedia Design,Portuguese,134.6,Female,19,0,0,0,0,0.0,0,0,0,0,0,0.0,0,Graduate
 Single,Veterinary Nursing,Portuguese,140.0,Female,22,2,6,9,6,13.333333333333334,0,1,6,9,4,11.5,0,Graduate
 Single,Tourism,Portuguese,133.2,Female,19,0,6,9,5,13.4,0,0,6,16,2,13.5,0,Enrolled
-,Social Service,Portuguese,133.5,Female,21,0,6,8,3,10.2,0,0,6,13,4,12.25,0,Enrolled
+Divorced,Social Service,Portuguese,133.5,Female,21,0,6,8,3,10.2,0,0,6,13,4,12.25,0,Enrolled
 Single,Journalism and Communication,Portuguese,117.9,Female,21,0,6,6,5,13.0,0,0,6,7,6,12.833333333333334,0,Graduate
 Single,Nursing,Portuguese,128.0,Female,18,0,8,11,7,12.90857142857143,0,0,8,11,7,12.90857142857143,0,Graduate
 Single,Basic Education,Portuguese,113.2,Female,20,0,6,12,4,12.0,0,0,6,11,1,10.0,0,Dropout
@@ -1548,7 +1548,7 @@ Single,Communication Design,Portuguese,131.3,Female,19,0,6,10,4,12.0,1,0,6,6,6,1
 Single,Journalism and Communication,Portuguese,122.2,Female,18,0,6,7,5,12.6,0,0,6,6,5,11.8,0,Enrolled
 Married,Management (evening attendance),Portuguese,118.4,Female,39,0,5,5,0,0.0,0,0,5,5,0,0.0,0,Dropout
 Married,Tourism,Portuguese,100.0,Female,37,0,5,5,0,0.0,0,0,5,10,0,0.0,0,Dropout
-,Nursing,Portuguese,110.0,Female,37,0,8,8,0,0.0,1,0,8,8,0,0.0,1,Dropout
+Divorced,Nursing,Portuguese,110.0,Female,37,0,8,8,0,0.0,1,0,8,8,0,0.0,1,Dropout
 Married,Social Service (evening attendance),Portuguese,100.0,Female,35,11,16,16,16,12.6875,0,11,13,13,13,12.0,0,Graduate
 Single,Management,Portuguese,106.2,Female,49,9,13,22,10,10.4,0,4,9,18,6,10.666666666666666,0,Graduate
 Single,Management,Portuguese,110.0,Female,52,11,15,26,14,10.466666666666669,0,9,12,16,12,10.923076923076923,0,Graduate
@@ -1571,9 +1571,9 @@ Single,Oral Hygiene,Santomean,137.0,Female,19,0,7,11,0,0.0,4,0,7,11,2,11.6666666
 Single,Equinculture,Spanish,100.0,Female,37,0,6,0,0,0.0,0,0,6,0,0,0.0,0,Dropout
 Married,Social Service (evening attendance),Portuguese,114.4,Female,45,8,12,14,12,14.0,0,2,7,12,7,13.857142857142858,0,Enrolled
 Single,Agronomy,Portuguese,120.0,Male,38,0,6,8,0,0.0,0,0,6,10,0,0.0,0,Dropout
-,Management (evening attendance),Portuguese,119.0,Male,55,0,5,5,0,0.0,0,0,5,5,0,0.0,0,Dropout
-,Agronomy,Portuguese,110.0,Female,28,0,6,17,5,13.0,0,0,6,11,4,11.75,0,Dropout
-,Management (evening attendance),Portuguese,120.0,Female,46,6,8,12,8,12.375,0,4,9,11,5,12.4,0,Graduate
+Divorced,Management (evening attendance),Portuguese,119.0,Male,55,0,5,5,0,0.0,0,0,5,5,0,0.0,0,Dropout
+Divorced,Agronomy,Portuguese,110.0,Female,28,0,6,17,5,13.0,0,0,6,11,4,11.75,0,Dropout
+Divorced,Management (evening attendance),Portuguese,120.0,Female,46,6,8,12,8,12.375,0,4,9,11,5,12.4,0,Graduate
 Single,Animation and Multimedia Design,Portuguese,119.8,Female,22,0,0,0,0,0.0,0,0,0,0,0,0.0,0,Graduate
 Married,Advertising and Marketing Management,Portuguese,135.6,Female,46,0,6,10,5,11.4,0,0,6,9,4,13.75,0,Dropout
 Single,Management (evening attendance),Portuguese,120.7,Female,28,0,5,9,4,11.25,0,0,5,7,4,13.0,0,Enrolled
@@ -1676,7 +1676,7 @@ Single,Nursing,Portuguese,190.0,Female,27,1,7,7,7,14.757142857142856,0,1,8,9,8,1
 Single,Nursing,Portuguese,128.5,Female,18,0,7,7,6,12.766666666666666,0,0,7,7,6,12.766666666666666,0,Graduate
 Single,Tourism,Portuguese,126.6,Female,18,0,5,5,5,10.4,0,0,6,13,0,0.0,0,Dropout
 Single,Oral Hygiene,Portuguese,131.6,Male,19,0,7,0,0,0.0,0,0,7,0,0,0.0,0,Dropout
-,Management (evening attendance),Portuguese,119.0,Male,35,0,5,10,4,10.5,0,0,5,6,5,12.6,0,Graduate
+Divorced,Management (evening attendance),Portuguese,119.0,Male,35,0,5,10,4,10.5,0,0,5,6,5,12.6,0,Graduate
 Single,Veterinary Nursing,Portuguese,127.6,Male,23,0,5,6,4,14.25,0,0,5,6,5,13.4,0,Graduate
 Single,Nursing,Portuguese,100.0,Male,28,0,7,11,3,11.916666666666666,1,0,7,17,0,0.0,0,Dropout
 Single,Informatics Engineering,Portuguese,124.5,Male,19,0,5,10,3,10.666666666666666,0,0,5,9,2,14.0,2,Enrolled
@@ -2011,7 +2011,7 @@ Single,Animation and Multimedia Design,Portuguese,147.5,Female,18,0,0,0,0,0.0,0,
 Single,Journalism and Communication,Portuguese,129.6,Female,22,0,6,0,0,0.0,0,0,6,0,0,0.0,0,Dropout
 Single,Basic Education,Portuguese,126.1,Female,18,0,7,9,6,12.333333333333334,0,0,7,7,6,12.666666666666666,0,Graduate
 Married,Management (evening attendance),Portuguese,160.0,Female,44,0,5,5,5,11.8,0,0,5,5,5,12.4,0,Graduate
-,Basic Education,Portuguese,105.5,Female,33,0,6,7,5,13.2,0,0,6,7,5,10.6,0,Dropout
+Divorced,Basic Education,Portuguese,105.5,Female,33,0,6,7,5,13.2,0,0,6,7,5,10.6,0,Dropout
 Married,Basic Education,Portuguese,95.5,Female,32,0,6,6,0,0.0,0,0,5,10,0,0.0,0,Dropout
 Married,Agronomy,Portuguese,107.5,Female,35,0,6,0,0,0.0,0,0,6,0,0,0.0,0,Dropout
 Single,Social Service,Portuguese,106.1,Female,20,0,6,6,6,11.5,0,0,6,7,6,13.285714285714286,0,Graduate
@@ -2090,7 +2090,7 @@ Single,Equinculture,Portuguese,150.9,Female,18,0,6,8,6,15.0,0,0,6,8,5,15.1666666
 Single,Nursing,Portuguese,127.3,Female,20,0,7,7,6,12.633333333333333,0,0,7,7,6,12.633333333333333,0,Graduate
 Single,Advertising and Marketing Management,Portuguese,100.0,Female,25,0,5,5,5,11.2,0,0,5,5,5,12.6,0,Dropout
 Single,Nursing,Portuguese,128.8,Female,18,0,7,7,6,14.233333333333334,0,0,7,7,6,14.233333333333334,0,Graduate
-,Veterinary Nursing,Portuguese,119.7,Female,21,0,5,13,5,12.2,2,0,5,10,3,11.333333333333334,1,Enrolled
+Divorced,Veterinary Nursing,Portuguese,119.7,Female,21,0,5,13,5,12.2,2,0,5,10,3,11.333333333333334,1,Enrolled
 Single,Nursing,Portuguese,140.8,Female,18,0,8,8,7,15.7,0,0,8,8,7,15.7,0,Graduate
 Single,Nursing,Portuguese,138.0,Female,18,0,7,7,6,15.2,0,0,7,7,6,15.2,0,Graduate
 Single,Basic Education,Portuguese,132.9,Female,29,0,6,9,6,16.333333333333332,0,0,6,8,5,15.6,0,Dropout
@@ -2766,7 +2766,7 @@ Single,Social Service (evening attendance),Portuguese,130.0,Female,26,8,11,16,10
 Single,Management (evening attendance),Portuguese,130.1,Female,25,0,5,8,3,11.0,0,0,5,8,3,11.25,0,Enrolled
 Single,Nursing,Portuguese,127.5,Female,18,0,8,8,8,13.11,0,0,8,8,8,13.11,0,Graduate
 Single,Nursing,Portuguese,130.0,Female,27,0,8,8,7,14.414285714285716,0,0,8,8,7,14.414285714285716,0,Graduate
-,Social Service (evening attendance),Portuguese,115.0,Female,24,0,5,5,0,0.0,0,0,5,10,0,0.0,0,Dropout
+Divorced,Social Service (evening attendance),Portuguese,115.0,Female,24,0,5,5,0,0.0,0,0,5,10,0,0.0,0,Dropout
 Single,Management,Portuguese,126.8,Female,20,0,5,8,5,12.333333333333334,0,0,5,7,5,12.2,0,Graduate
 Single,Nursing,Portuguese,116.7,Female,18,0,7,9,0,0.0,0,0,7,8,1,10.0,0,Dropout
 Single,Oral Hygiene,Portuguese,128.5,Female,18,0,7,9,7,14.1,0,0,8,8,8,13.3125,0,Graduate
@@ -2872,7 +2872,7 @@ Married,Management (evening attendance),Portuguese,150.3,Female,47,0,5,5,5,14.8,
 Single,Animation and Multimedia Design,Portuguese,128.2,Female,22,12,17,22,17,10.36842105263158,0,14,17,18,17,11.5,0,Graduate
 Married,Nursing,Portuguese,114.3,Female,41,0,7,0,0,0.0,0,0,8,0,0,0.0,0,Dropout
 Married,Management (evening attendance),Portuguese,117.3,Female,28,6,10,15,6,10.666666666666666,0,5,10,17,9,11.333333333333334,1,Enrolled
-,Tourism,Portuguese,120.0,Female,32,9,15,21,13,12.692307692307692,0,12,15,22,13,12.384615384615383,0,Graduate
+Divorced,Tourism,Portuguese,120.0,Female,32,9,15,21,13,12.692307692307692,0,12,15,22,13,12.384615384615383,0,Graduate
 Married,Management (evening attendance),Portuguese,110.7,Female,50,0,5,0,0,0.0,0,0,5,0,0,0.0,0,Dropout
 Single,Management,Portuguese,118.0,Female,53,14,15,15,15,11.8,0,12,13,13,12,11.666666666666666,1,Enrolled
 Single,Oral Hygiene,Spanish,169.2,Female,54,0,7,7,0,0.0,0,0,5,10,0,0.0,0,Dropout
@@ -2913,12 +2913,12 @@ Single,Journalism and Communication,Portuguese,120.9,Female,18,0,6,0,0,0.0,0,0,6
 Single,Nursing,Portuguese,135.3,Female,18,0,8,8,8,13.27625,0,0,8,8,8,13.27625,0,Graduate
 Single,Veterinary Nursing,Portuguese,125.2,Female,21,0,6,0,0,0.0,0,0,6,0,0,0.0,0,Dropout
 Single,Social Service,Portuguese,135.7,Female,19,0,6,8,6,14.375,0,0,6,8,6,14.75,0,Graduate
-,Management,Portuguese,110.0,Female,47,0,5,0,0,0.0,0,0,5,0,0,0.0,0,Dropout
-,Social Service (evening attendance),Portuguese,119.0,Female,48,0,6,7,6,10.666666666666666,0,0,6,9,5,11.8,0,Enrolled
+Divorced,Management,Portuguese,110.0,Female,47,0,5,0,0,0.0,0,0,5,0,0,0.0,0,Dropout
+Divorced,Social Service (evening attendance),Portuguese,119.0,Female,48,0,6,7,6,10.666666666666666,0,0,6,9,5,11.8,0,Enrolled
 Married,Social Service (evening attendance),Portuguese,110.0,Female,39,9,13,19,12,13.416666666666666,0,4,10,10,10,14.5,0,Graduate
 Single,Nursing,Portuguese,115.2,Female,19,0,7,9,6,12.97166666666667,0,0,8,9,7,12.321428571428571,0,Graduate
 Single,Management (evening attendance),Portuguese,112.9,Female,38,14,15,16,14,10.928571428571429,0,12,14,16,12,11.833333333333334,0,Dropout
-,Agronomy,Portuguese,119.4,Female,27,0,6,6,0,0.0,0,0,6,7,0,0.0,0,Dropout
+Divorced,Agronomy,Portuguese,119.4,Female,27,0,6,6,0,0.0,0,0,6,7,0,0.0,0,Dropout
 Single,Animation and Multimedia Design,Portuguese,152.9,Female,18,0,0,0,0,0.0,0,0,0,0,0,0.0,0,Graduate
 Single,Social Service (evening attendance),Portuguese,117.5,Female,34,0,6,6,4,13.25,0,0,6,6,0,0.0,0,Enrolled
 Married,Social Service,Portuguese,98.5,Female,48,0,6,14,6,11.333333333333334,0,0,6,11,5,12.4,0,Dropout
@@ -2958,7 +2958,7 @@ Single,Animation and Multimedia Design,Portuguese,124.0,Female,18,0,0,0,0,0.0,0,
 Single,Nursing,Portuguese,130.0,Female,36,0,7,7,0,0.0,7,0,7,7,0,0.0,7,Dropout
 Married,Social Service (evening attendance),Portuguese,160.5,Female,38,8,11,11,11,12.636363636363637,0,5,8,8,8,11.0,0,Graduate
 Married,Basic Education,Portuguese,100.0,Female,45,0,6,11,3,12.333333333333334,0,0,6,13,2,11.0,0,Dropout
-,Tourism,Portuguese,103.0,Female,62,0,6,7,6,15.0,0,0,6,10,6,12.833333333333334,0,Graduate
+Divorced,Tourism,Portuguese,103.0,Female,62,0,6,7,6,15.0,0,0,6,10,6,12.833333333333334,0,Graduate
 Single,Advertising and Marketing Management,Portuguese,103.0,Female,20,0,6,8,4,11.75,0,0,6,10,6,12.666666666666666,0,Graduate
 Single,Nursing,Portuguese,131.5,Female,18,0,8,8,7,14.13714285714286,0,0,8,8,7,14.13714285714286,0,Graduate
 Single,Communication Design,Portuguese,121.4,Female,18,0,6,6,2,12.0,0,0,6,6,1,11.0,0,Dropout
@@ -2974,7 +2974,7 @@ Single,Management (evening attendance),Portuguese,134.0,Female,25,0,5,14,1,11.0,
 Single,Veterinary Nursing,Portuguese,139.4,Female,18,0,5,9,3,12.0,1,0,5,6,4,13.0,0,Enrolled
 Single,Management,Portuguese,116.5,Female,20,0,5,8,4,11.6,0,0,5,10,3,12.333333333333334,0,Graduate
 Single,Animation and Multimedia Design,Portuguese,113.9,Female,19,0,0,0,0,0.0,0,0,0,0,0,0.0,0,Dropout
-,Management (evening attendance),Portuguese,130.0,Female,41,5,10,14,10,14.636363636363637,0,5,10,13,10,14.6,0,Graduate
+Divorced,Management (evening attendance),Portuguese,130.0,Female,41,5,10,14,10,14.636363636363637,0,5,10,13,10,14.6,0,Graduate
 Single,Tourism,Portuguese,129.9,Female,19,0,6,8,6,13.0,0,0,6,6,6,12.166666666666666,0,Graduate
 Single,Basic Education,Portuguese,133.7,Female,28,14,18,23,14,12.785714285714286,2,16,17,18,16,13.875,0,Dropout
 Single,Communication Design,Portuguese,124.8,Female,21,0,6,6,6,14.5,0,0,6,7,5,12.0,0,Graduate
@@ -3054,7 +3054,7 @@ Single,Management,Portuguese,112.3,Female,19,0,5,8,2,11.5,0,0,5,10,3,10.85714285
 Single,Veterinary Nursing,Portuguese,123.0,Female,20,0,6,7,6,15.857142857142858,0,0,6,6,6,16.0,0,Graduate
 Single,Veterinary Nursing,Portuguese,122.3,Female,19,0,5,5,5,12.6,0,0,5,9,3,13.0,0,Dropout
 Single,Social Service,Portuguese,122.8,Female,19,0,6,8,6,14.0,0,0,6,7,6,14.571428571428571,0,Graduate
-,Equinculture,Portuguese,160.0,Female,27,1,5,8,3,14.666666666666666,2,0,5,7,2,13.0,2,Dropout
+Divorced,Equinculture,Portuguese,160.0,Female,27,1,5,8,3,14.666666666666666,2,0,5,7,2,13.0,2,Dropout
 Single,Journalism and Communication,Portuguese,120.1,Female,18,0,6,6,6,13.666666666666666,0,0,6,6,6,14.0,0,Graduate
 Single,Social Service (evening attendance),Portuguese,142.4,Female,32,0,6,0,0,0.0,0,0,6,0,0,0.0,0,Dropout
 Single,Nursing,Portuguese,127.3,Female,18,0,8,8,7,12.628571428571428,0,0,8,8,7,12.628571428571428,0,Graduate
@@ -3087,7 +3087,7 @@ Single,Communication Design,Portuguese,116.3,Female,20,0,6,8,5,12.2,0,0,6,6,6,11
 Married,Management,Portuguese,110.0,Female,33,5,8,10,6,12.833333333333334,0,2,5,8,4,12.0,0,Enrolled
 Single,Management (evening attendance),Portuguese,119.5,Female,22,9,15,17,15,11.2,0,9,14,15,14,12.428571428571429,0,Graduate
 Single,Management,Portuguese,125.0,Female,18,0,5,8,3,12.333333333333334,0,0,5,7,4,12.0,0,Graduate
-,Nursing,Portuguese,160.0,Female,27,0,8,8,7,15.94285714285714,0,0,8,8,7,15.94285714285714,0,Graduate
+Divorced,Nursing,Portuguese,160.0,Female,27,0,8,8,7,15.94285714285714,0,0,8,8,7,15.94285714285714,0,Graduate
 Single,Management (evening attendance),Portuguese,150.0,Female,27,0,5,0,0,0.0,0,0,5,0,0,0.0,0,Dropout
 Single,Social Service,Portuguese,115.0,Female,19,0,6,10,4,10.25,0,0,6,8,6,10.714285714285714,0,Graduate
 Single,Basic Education,Portuguese,128.4,Female,20,0,6,10,5,13.2,0,0,6,12,5,12.833333333333334,0,Enrolled
@@ -3274,7 +3274,7 @@ Married,Social Service (evening attendance),Portuguese,113.5,Female,50,3,9,11,8,
 Divorced,Management,Portuguese,128.2,Female,41,8,14,24,11,12.25,3,5,10,12,10,13.4,0,Graduate
 Single,Nursing,Portuguese,120.0,Female,26,0,7,8,6,12.0,0,0,7,8,6,12.0,0,Enrolled
 Single,Agronomy,Portuguese,130.0,Female,44,0,6,10,1,12.0,0,0,6,6,0,0.0,0,Dropout
-,Management,Portuguese,110.0,Female,23,10,15,15,13,10.923076923076923,0,5,10,10,7,11.142857142857142,0,Graduate
+Divorced,Management,Portuguese,110.0,Female,23,10,15,15,13,10.923076923076923,0,5,10,10,7,11.142857142857142,0,Graduate
 Single,Biofuel Production Technologies,Portuguese,117.7,Female,34,10,12,12,10,12.0,0,5,10,11,5,11.0,0,Dropout
 Single,Management,Portuguese,99.6,Female,21,0,5,10,5,13.714285714285714,0,0,5,7,5,14.4,0,Graduate
 Single,Management,Angolan,117.9,Female,22,0,5,8,1,10.0,0,0,5,8,2,13.0,0,Dropout
@@ -3327,7 +3327,7 @@ Single,Animation and Multimedia Design,Portuguese,100.0,Male,27,0,0,0,0,0.0,0,0,
 Single,Animation and Multimedia Design,Portuguese,118.8,Male,19,4,10,10,5,11.0,0,2,7,8,2,10.0,0,Enrolled
 Married,Management (evening attendance),Portuguese,130.0,Male,30,6,10,14,9,12.333333333333334,0,7,10,12,8,12.0,0,Graduate
 Single,Equinculture,Portuguese,150.0,Male,28,0,6,9,0,0.0,0,0,6,8,1,10.0,1,Dropout
-,Informatics Engineering,Portuguese,116.0,Male,34,0,5,14,1,17.0,0,0,5,10,2,11.0,0,Enrolled
+Divorced,Informatics Engineering,Portuguese,116.0,Male,34,0,5,14,1,17.0,0,0,5,10,2,11.0,0,Enrolled
 Single,Management,Portuguese,99.0,Male,21,0,5,5,5,11.0,0,0,5,11,3,11.428571428571429,0,Enrolled
 Single,Social Service,Portuguese,132.0,Male,20,0,6,11,5,11.142857142857142,0,0,6,9,6,11.571428571428571,0,Graduate
 Single,Tourism,Portuguese,125.0,Male,31,3,8,19,5,12.166666666666666,0,3,7,12,5,12.0,0,Dropout
@@ -3648,7 +3648,7 @@ Single,Social Service,Portuguese,117.0,Female,21,0,6,8,6,12.666666666666666,0,0,
 Single,Veterinary Nursing,Portuguese,144.9,Female,26,0,6,11,3,11.75,0,0,6,19,4,12.8,0,Enrolled
 Single,Social Service,Portuguese,127.0,Female,21,0,6,0,0,0.0,0,0,6,0,0,0.0,0,Dropout
 Single,Nursing,Portuguese,118.0,Female,18,0,8,8,7,12.328571428571427,0,0,8,8,7,12.328571428571427,0,Graduate
-,Basic Education,Portuguese,118.0,Female,27,0,7,14,6,11.666666666666666,0,0,7,10,1,10.0,0,Dropout
+Divorced,Basic Education,Portuguese,118.0,Female,27,0,7,14,6,11.666666666666666,0,0,7,10,1,10.0,0,Dropout
 Single,Communication Design,Portuguese,126.4,Female,20,5,12,12,12,13.25,0,5,12,12,11,12.727272727272728,0,Graduate
 Single,Advertising and Marketing Management,Portuguese,110.0,Female,21,0,6,8,5,11.833333333333334,0,0,6,8,4,13.25,2,Enrolled
 Single,Oral Hygiene,Portuguese,124.4,Female,18,0,7,7,7,13.3,0,0,8,8,8,15.125,0,Graduate
@@ -3680,14 +3680,14 @@ Single,Journalism and Communication,Portuguese,133.7,Female,19,0,6,11,1,13.0,0,0
 Single,Advertising and Marketing Management,Portuguese,140.0,Female,22,0,6,6,6,15.166666666666666,0,0,6,6,6,16.0,0,Graduate
 Single,Basic Education,Portuguese,113.9,Female,19,0,6,8,6,12.666666666666666,0,0,6,7,6,12.0,0,Graduate
 Single,Animation and Multimedia Design,Portuguese,120.7,Male,18,0,0,0,0,0.0,0,0,0,0,0,0.0,0,Dropout
-,Management,Portuguese,119.8,Male,26,0,5,9,5,12.0,0,0,5,5,5,10.2,0,Enrolled
+Divorced,Management,Portuguese,119.8,Male,26,0,5,9,5,12.0,0,0,5,5,5,10.2,0,Enrolled
 Single,Management (evening attendance),Portuguese,121.8,Male,36,0,5,5,0,0.0,0,0,5,5,0,0.0,0,Dropout
 Single,Animation and Multimedia Design,Portuguese,117.7,Male,20,0,0,0,0,0.0,0,0,0,0,0,0.0,0,Graduate
 Married,Management,Portuguese,110.0,Male,30,0,5,8,2,11.0,0,0,5,6,4,11.5,0,Dropout
 Single,Agronomy,Portuguese,134.4,Male,24,0,6,7,6,15.714285714285714,0,0,6,10,6,15.9,0,Dropout
 Single,Management,Portuguese,125.3,Male,26,11,15,15,11,10.818181818181818,0,12,14,15,11,11.636363636363637,1,Dropout
 Single,Management,Portuguese,119.1,Male,19,0,5,16,1,12.0,0,0,5,6,0,0.0,0,Dropout
-,Social Service,Portuguese,146.0,Male,34,0,6,8,5,12.6,0,0,6,11,4,11.25,0,Graduate
+Divorced,Social Service,Portuguese,146.0,Male,34,0,6,8,5,12.6,0,0,6,11,4,11.25,0,Graduate
 Single,Equinculture,Portuguese,130.0,Male,33,0,5,12,1,13.0,2,0,5,7,3,14.0,0,Enrolled
 Single,Management,Portuguese,122.0,Male,19,0,5,8,5,11.6,1,0,5,10,4,10.75,0,Graduate
 Single,Informatics Engineering,Portuguese,118.1,Male,26,0,5,11,1,10.0,0,0,5,14,1,11.0,0,Dropout
@@ -3720,7 +3720,7 @@ Single,Animation and Multimedia Design,Portuguese,124.3,Male,18,0,0,0,0,0.0,0,0,
 Single,Management,Portuguese,118.9,Male,21,0,5,11,2,10.5,0,0,5,13,0,0.0,0,Dropout
 Single,Advertising and Marketing Management,Portuguese,130.2,Male,18,0,6,6,6,13.5,0,0,6,0,0,0.0,0,Dropout
 Single,Agronomy,Portuguese,120.0,Male,19,0,6,17,1,11.0,0,0,6,19,0,0.0,0,Enrolled
-,Communication Design,Portuguese,140.0,Male,30,0,6,6,1,10.0,0,0,6,6,0,0.0,0,Dropout
+Divorced,Communication Design,Portuguese,140.0,Male,30,0,6,6,1,10.0,0,0,6,6,0,0.0,0,Dropout
 Single,Agronomy,Portuguese,130.0,Male,29,0,6,17,0,0.0,2,0,6,8,0,0.0,0,Dropout
 Single,Informatics Engineering,Portuguese,130.4,Male,18,0,5,10,1,12.0,0,0,5,7,3,10.666666666666666,2,Dropout
 Single,Advertising and Marketing Management,Portuguese,116.1,Male,18,0,5,6,4,12.25,0,0,5,5,5,12.2,0,Dropout
@@ -3942,8 +3942,8 @@ Single,Nursing,Portuguese,113.5,Female,20,0,7,7,7,14.30714285714286,0,0,8,8,8,15
 Married,Management,Portuguese,124.6,Female,36,0,5,8,3,11.0,0,0,5,12,4,13.375,0,Enrolled
 Single,Basic Education,Portuguese,116.0,Female,29,0,7,14,0,0.0,0,0,6,6,0,0.0,0,Dropout
 Single,Social Service,Portuguese,124.9,Female,19,0,6,10,6,12.0,0,0,6,12,4,11.0,0,Graduate
-,Management,Portuguese,140.5,Female,24,0,5,0,0,0.0,0,0,5,0,0,0.0,0,Dropout
-,Agronomy,Portuguese,179.6,Female,27,0,6,6,0,0.0,0,0,6,7,0,0.0,0,Dropout
+Divorced,Management,Portuguese,140.5,Female,24,0,5,0,0,0.0,0,0,5,0,0,0.0,0,Dropout
+Divorced,Agronomy,Portuguese,179.6,Female,27,0,6,6,0,0.0,0,0,6,7,0,0.0,0,Dropout
 Single,Journalism and Communication,Portuguese,116.1,Female,18,0,6,7,6,13.857142857142858,0,0,6,7,6,14.285714285714286,0,Graduate
 Single,Animation and Multimedia Design,Portuguese,139.4,Female,18,0,0,0,0,0.0,0,0,0,0,0,0.0,0,Graduate
 Single,Oral Hygiene,Portuguese,129.0,Female,21,0,7,0,0,0.0,0,0,7,0,0,0.0,0,Dropout
@@ -4135,7 +4135,7 @@ Single,Veterinary Nursing,Portuguese,140.0,Female,21,7,12,18,8,12.25,0,4,12,27,8
 Single,Tourism,Portuguese,114.2,Female,18,0,6,10,5,12.2,0,0,6,10,5,11.6,0,Enrolled
 Single,Social Service,Portuguese,127.3,Female,18,0,6,12,4,11.0,0,0,6,9,6,11.5,0,Graduate
 Single,Social Service (evening attendance),Portuguese,115.0,Female,28,0,6,8,5,12.8,0,0,6,8,5,11.0,0,Graduate
-,Nursing,Portuguese,118.8,Female,18,0,8,8,7,11.857142857142858,0,0,8,8,7,11.857142857142858,0,Graduate
+Divorced,Nursing,Portuguese,118.8,Female,18,0,8,8,7,11.857142857142858,0,0,8,8,7,11.857142857142858,0,Graduate
 Married,Tourism,Portuguese,125.0,Female,41,0,6,8,6,12.285714285714286,0,0,6,10,5,13.0,0,Graduate
 Single,Basic Education,Portuguese,111.5,Female,18,0,6,11,3,12.333333333333334,0,0,6,11,4,13.5,0,Dropout
 Single,Social Service,Portuguese,124.2,Female,21,0,6,11,4,11.25,0,0,6,12,4,11.4,0,Graduate
@@ -4275,7 +4275,7 @@ Single,Nursing,Portuguese,127.0,Male,19,0,8,8,7,12.514285714285714,0,0,8,8,7,12.
 Single,Veterinary Nursing,Portuguese,118.9,Male,18,0,5,5,3,14.0,0,0,5,7,3,12.666666666666666,0,Enrolled
 Single,Tourism,Portuguese,134.5,Male,25,0,6,8,6,13.166666666666666,0,0,6,8,5,12.6,0,Enrolled
 Single,Informatics Engineering,Portuguese,133.0,Male,18,0,5,10,4,13.0,0,0,5,10,3,12.333333333333334,3,Enrolled
-,Management,Portuguese,114.0,Male,29,0,5,5,1,13.0,0,0,5,5,0,0.0,0,Dropout
+Divorced,Management,Portuguese,114.0,Male,29,0,5,5,1,13.0,0,0,5,5,0,0.0,0,Dropout
 Single,Informatics Engineering,Portuguese,116.7,Male,21,0,5,10,1,10.0,0,0,5,8,3,13.666666666666666,3,Dropout
 Single,Journalism and Communication,Portuguese,125.1,Male,18,0,6,6,6,14.333333333333334,0,0,6,6,6,15.333333333333334,0,Graduate
 Single,Tourism,Portuguese,137.2,Male,20,0,6,6,0,0.0,0,0,6,12,0,0.0,0,Dropout
@@ -4373,7 +4373,7 @@ Single,Animation and Multimedia Design,Portuguese,133.9,Male,19,0,0,0,0,0.0,0,0,
 Single,Nursing,Portuguese,113.5,Male,18,0,7,7,7,13.175714285714289,0,0,8,8,8,14.925,0,Graduate
 Single,Agronomy,Portuguese,126.1,Male,24,0,6,7,0,0.0,0,0,6,10,0,0.0,0,Dropout
 Single,Social Service,Portuguese,121.2,Female,19,0,6,12,2,13.0,0,0,6,9,6,10.833333333333334,0,Enrolled
-,Nursing,Portuguese,150.0,Female,29,1,8,11,7,13.742857142857144,0,1,8,11,7,13.742857142857144,0,Graduate
+Divorced,Nursing,Portuguese,150.0,Female,29,1,8,11,7,13.742857142857144,0,1,8,11,7,13.742857142857144,0,Graduate
 Single,Management (evening attendance),Portuguese,100.0,Female,27,0,5,5,0,0.0,0,0,5,5,0,0.0,0,Dropout
 Single,Nursing,Portuguese,127.3,Female,18,0,7,8,7,12.217142857142855,0,0,8,11,7,12.11875,0,Graduate
 Married,Management (evening attendance),Portuguese,103.8,Female,28,14,15,15,14,11.071428571428571,0,12,14,16,12,11.333333333333334,1,Dropout

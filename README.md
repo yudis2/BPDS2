@@ -1,12 +1,9 @@
 # Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
 
 ## Business Understanding
-Jelaskan latar belakang bisnis dari perushaan tersebut.
 Jaya Jaya Institut adalah institusi pendidikan tinggi yang sudah berdiri sejak tahun 2000 dan berhasil meluluskan banyak mahasiswa berprestasi. Namun, saat ini institusi menghadapi tantangan serius berupa tingginya angka dropout (DO) mahasiswa. Masalah ini berpotensi menurunkan reputasi kampus serta mengurangi efektivitas proses pembelajaran.
 
 Untuk mengatasi permasalahan tersebut, dilakukan analisis data akademik dan demografis mahasiswa dengan tujuan memprediksi risiko dropout menggunakan teknik machine learning. Hasil prediksi ini nantinya akan diintegrasikan dalam dashboard interaktif yang membantu pihak institusi memantau dan mengambil langkah preventif terhadap performa mahasiswa.
-
----
 ### Permasalahan Bisnis
 1. Tingginya **angka mahasiswa yang dropout** tanpa bimbingan pencegahan sejak dini.
 2. Minimnya pemahaman mengenai **faktor utama yang memengaruhi dropout**.
@@ -19,10 +16,10 @@ Untuk mengatasi permasalahan tersebut, dilakukan analisis data akademik dan demo
 * Implementasi model machine learning (Random Forest)
 * Deployment model dan visualisasi ke dalam dashboard interaktif dengan Streamlit
 * Penyusunan insight dan rekomendasi berbasis data
+
 ### Persiapan
 
-Sumber data: 
-🔗 Link dataset: [Dicoding Student Performance Dataset](https://github.com/dicodingacademy/dicoding_dataset/tree/main/students_performance)
+Sumber data: 🔗 Link dataset: [Dicoding Student Performance Dataset](https://github.com/dicodingacademy/dicoding_dataset/tree/main/students_performance)
 Setup environment:
 1. Buka terminal atau PowerShell.
 2. Membuat virtual Environment
@@ -41,11 +38,8 @@ pip install -r requirements.txt
 ## Business Dashboard
 [Dashboard JayaMaju](https://yudisdwi.streamlit.app/)
 Student Analisys Dashboard yang digunakan untuk melakukan prediksi kemungkinan siswa dropout. 
-Berikut penjelasannya:
 
-Struktur Dashboard
-
-Sidebar (kiri):
+Sidebar (Filter Data):
 
 • Gender: Male / Female
 
@@ -53,17 +47,22 @@ Sidebar (kiri):
 
 • Course/Program Studi: Animation, Tourism, Communication, Journalism, dsb.
 
+Tab Overview :
 
-Data Overview
+• Menampilkan jumlah Rata-rata nilai, rata-rata umur, dan total siswa.
 
-Average Admission Grade: 126.98
+• Menampilkan Grafik Distribusi dari Jenis Kelamin, Status Siswa, Status Perkawinan, Umur.
 
-Average Age: 23.3 tahun
+Tab Academic Perfomance :
 
-Total Students: 4424 mahasiswa
+• Menampilkan Grafik Nilai Akademik Berdasarkan Gender, Jurusan, Dan Perfoma nilai per semester
+
+Tab Analyze :
+
+• Menampilkan beberapa input untuk analisa machine learning siswa yang terancam dropout.
 
 ## Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
+Untuk Menjalankan sistem rekomendasi dan analisis siswa :
 1. Clone Repository
 ```
 git clone https://github.com/yudis2/BPDS2.git
@@ -77,19 +76,19 @@ streamlit run app.py
 ```
 http://localhost:(port)/
 ```
+3. Klik Tab Analyze
+```
+masukan setiap value yang tersedia
+lalu klik tombol submit
+```
 
 ## Conclusion
-
-• Mengidentifikasi area yang memerlukan perhatian (misal dropout tinggi).
+• Mayoritas mahasiswa adalah single dan berusia 18–20, sehingga seluruh kebijakan inti harus menargetkan kelompok ini.
 
 • Memahami komposisi demografis mahasiswa.
 
 • Mengoptimalkan strategi pendidikan berdasarkan data nyata.
 
 ### Rekomendasi Action Items
-
-• Mahasiswa yang sudah menikah memiliki risiko DO lebih tinggi karena tuntutan keluarga, sehingga perlu diberikan fleksibilitas jadwal kuliah, akses pembelajaran daring, serta dukungan konseling agar tetap dapat mengikuti perkuliahan secara konsisten.
-
-• Mahasiswa dengan IPK rendah atau performa akademik melemah pada semester awal berpotensi besar mengalami DO, sehingga universitas perlu menyediakan kelas remedial, mentoring rutin, dan pendampingan belajar yang terstruktur.
-
-• Ketidakhadiran yang meningkat secara konsisten menjadi indikator kuat risiko DO, sehingga sistem perlu memberikan notifikasi otomatis dan intervensi cepat berupa konseling untuk mengetahui penyebab dan solusi kehadiran.
+- Program dan layanan diarahkan terutama untuk kelompok Single, karena jumlahnya paling besar dan mewakili hampir seluruh populasi mahasiswa dropout.
+- Fokus pada Siswa Usia direntang usia 18-20 tahun Meski masih muda, kelompok ini memiliki jumlah dropout tinggi dan hampir mewakili seluruh populasi.
