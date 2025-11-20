@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import joblib
-from pathlib import Path
 
 st.set_page_config(page_title="🎓 Student Performance Dashboard", layout="wide")
 
