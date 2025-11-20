@@ -143,7 +143,7 @@ with tab3:
             else "✅ Student predict keep studying"
         )
 
-        st.write(f"**Status Prediksi:** {dropout_result}")
+        st.write(f"**Status :** {dropout_result}")
         st.write(f"**Probabilitas Drop Out:** {prediction_proba[0][1]:.2f}")
     
     
