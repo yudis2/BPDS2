@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ````
 
 ## Business Dashboard
-[Dashboard JayaMaju](https://yudisdwi.streamlit.app/)
+[Dashboard JayaMaju](https://yudis2-bpds2-app-nseyea.streamlit.app/)
 Student Analisys Dashboard yang digunakan untuk melakukan prediksi kemungkinan siswa dropout. 
 
 Sidebar (Filter Data):
@@ -83,12 +83,12 @@ lalu klik tombol submit
 ```
 
 ## Conclusion
-• Mayoritas mahasiswa adalah single dan berusia 18–20, sehingga seluruh kebijakan inti harus menargetkan kelompok ini.
+• Mahasiswa yang berisiko dropout memiliki rata-rata usia saat 18-20 tahun, dengan nilai akademik awal yang bervariasi, menunjukkan bahwa dropout tidak hanya terjadi pada mahasiswa dengan usia muda atau nilai rendah.
 
-• Memahami komposisi demografis mahasiswa.
+• Status Perkawinan: Mayoritas mahasiswa yang dropout berstatus single, yang dapat mengindikasikan bahwa mereka memiliki prioritas yang berbeda dibandingkan mahasiswa yang sudah menikah dan mungkin lebih fokus pada pendidikan mereka.
 
-• Mengoptimalkan strategi pendidikan berdasarkan data nyata.
+• Jenis Kelamin: Proporsi mahasiswa yang dropout antara perempuan dan laki-laki hampir seimbang, yang menunjukkan bahwa faktor gender tidak memiliki pengaruh signifikan terhadap tingkat dropout.
 
 ### Rekomendasi Action Items
-- Program dan layanan diarahkan terutama untuk kelompok Single, karena jumlahnya paling besar dan mewakili hampir seluruh populasi mahasiswa dropout.
-- Fokus pada Siswa Usia direntang usia 18-20 tahun Meski masih muda, kelompok ini memiliki jumlah dropout tinggi dan hampir mewakili seluruh populasi.
+- Program dan layanan diarahkan terutama untuk kelompok Single, karena jumlahnya paling besar mahasiswa dropout mencapai 83.3% dari total mahasiswa.
+- Fokus pada Siswa Usia direntang usia 18-20 tahun Meski masih muda, kelompok ini memiliki jumlah dropout tinggi.
